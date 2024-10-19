@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>THI lihor (Glimmer&Charm)</title>
+  <style>
+    /* Defining CSS variables */
+    :root {
+      --main-bg-color: #282c34;
+      --main-text-color: #61dafb;
+      --main-padding: 20px;
+    }
+
+    body {
+      background-color: var(--main-bg-color); /* Using the variable */
+      color: var(--main-text-color); /* Using the variable */
+      padding: var(--main-padding); /* Using the variable */
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      font-size: 2em;
+      color: var(--main-text-color); /* Reusing the variable */
+    }
+
+    .button {
+      background-color: var(--main-text-color); /* Reusing the variable */
+      color: var(--main-bg-color);
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background-color: white;
+      color: var(--main-bg-color);
+    }
+  </style>
+</head>
+  <body>
+    <h1>Welcome to CSS Variables</h1>
+    <button class="button">Click Me</button>
+  </body>
+</html>
